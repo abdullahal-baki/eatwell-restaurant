@@ -1,0 +1,50 @@
+* {
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+}
+
+.hero-section {
+     background-image: url("/img/bg_3.jpg");
+     background-repeat: no-repeat;
+     background-position: center;
+     height: 885px;
+     text-align: center;
+     color: white;
+     position: relative;
+     margin-bottom: 150px;
+     
+}
+.hero-section .content {
+     position: absolute;
+     top: 60%;
+     left: 50%;
+     transform: translate(-50%,-40%);
+     width: 100%;
+     
+}
+#title{
+     
+     transition: transform .4s;
+}
+#para{
+     
+     transition: .3s;
+}
+
+#title h1{
+     font-size: 80px;
+}
+#para p{
+     font-size: 23px;
+     padding-top: 20px;
+     opacity: .6;
+}
+
+
+#demo-div {
+     background-color: aquamarine;
+     padding: 100px 200px;
+     margin: 30px 50px;
+     transition: transform 1s;
+}
