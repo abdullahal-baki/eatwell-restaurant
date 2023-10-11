@@ -114,15 +114,19 @@ body {
 /* ============about style================ */
 
 .about-section {
+     max-width: 1200px;
      display: flex;
      justify-content: center;
      align-items: center;
      padding: 20px 40px;
      margin-top: 0;
+     margin: 0 auto;
      margin-bottom: 150px;
+     
 }
 
 .left-side {
+     width: 500px;
      margin-right: 100px;
 }
 .left-side  * {
@@ -163,7 +167,8 @@ body {
 
 .right-side img {
      width: auto;
-     height: 300px;
+     height: 350px;
+     
 }
 
 
@@ -172,6 +177,8 @@ body {
 .offer-section {
      background-color: #F8F9FA;
      padding: 20px 40px;
+     padding-bottom: 280px;
+     
 }
 
 .titel-area {
@@ -200,16 +207,54 @@ body {
 
 .img-cards {
      margin-top: 50px;
+     display: flex;
+     flex-grow: 30px;
+     justify-content: center;
+     align-items: center;
 
 
 }
 
 .card {
-     width: 350px;
+     width: 400px;
      text-align: center;
      background-color: white;
+     margin-left: 15px;
 
 }
 .card img{
-     width:inherit;
+     width: 400px;
+}
+
+.card .price {
+     margin-top: 50px;
+     color: #FDA403;
+     font-size: 23px;
+     margin-bottom: 10px;
+}
+
+.card .text {
+
+     width: 280px;
+     padding-top: 10px;
+     margin: 0 auto;
+     opacity: .6;
+
+}
+
+.odr-btn {
+
+     margin: 20px;
+     background-color: #f0ac00;
+     display: inline-block;
+     padding: 10px 30px;
+}
+.odr-btn a{
+     text-decoration: none;
+     color: rgb(255, 255, 255);
+     opacity: 1;
+     font-size: 14px;
+}
+.odr-btn:hover {
+     background-color: #b97800;
 }
