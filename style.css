@@ -14,11 +14,12 @@ body {
      align-items: center;
      background-color: rgb(255, 255, 255);
      width: 100%;
-     padding: 20px 20px;
+     padding: 10px 20px;
      position: fixed;
      top: 0;
      left: 0;
      z-index: 2;
+     padding-bottom: 0;
 
 }
 .logo p a{
@@ -46,6 +47,11 @@ body {
 }
 
 
+@media (max-width: 570px) {
+     .menu {
+          display: none;
+     }
+}
 /* ----------home style------------ */
 
 .hero-section {
@@ -67,19 +73,20 @@ body {
      transform: translate(-50%,-40%);
      width: 100%;
      
+     
 }
 #title{
-     
-     transition: transform .4s;
      font-family: "Playfair Display", serif;
      font-weight: bold;
+     animation: wc-content .5s ;
 }
 #para{
+     animation: wc-content .4s ;
      
-     transition: .3s;
 }
 #title h1{
      font-size: 80px;
+     animation: wc-content .3s ;
 }
 #para p{
      font-size: 23px;
@@ -102,7 +109,31 @@ body {
 .hero-btn a:hover{
      background-color: white;
      color: black;
+     text-decoration: none;
      transition:  .5s;
+}
+
+@keyframes wc-content {
+     from {
+          transform: translateY(20px);
+     }
+     to {
+          transform: translateY(-20px);
+          
+     }
+}
+#title,#para,#title h1 {
+     transform: translateY(-20px);
+}
+
+@media (max-width: 570px) {
+     #title h1{
+          font-size: 40px;
+     }
+     #para p{
+          font-size: 20px;
+          opacity: .9;
+     }
 }
 
 
