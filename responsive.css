@@ -152,7 +152,7 @@
 } */
 
 
-
+/* ============== */
 
 .gallery-section .image-area {
     display: block;
@@ -167,8 +167,7 @@
 }
 
 
-
-
+/* ====================== */
 
 
 .contact-section {
@@ -189,6 +188,7 @@
 }
 
 .info-area img{
+    margin-top: 40px;
     height: 280px;
     width: 100%;
     
@@ -196,13 +196,29 @@
 
 
 
+/* ====foooter======*/
 
+.footer-area{
+    width: auto;
+    margin: 0 auto;
+}
 
+.first-row {
+    display: block;
+}
 
+.col-about-us p{
+    text-align: justify;
+    width: 100%;
+}
+.col-links {
+    display: block;
+    margin-left: 0px;
+}
 
-
-
-
+.sub-col h3 {
+    margin-top: 40px;
+}
 
 
 
