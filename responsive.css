@@ -140,19 +140,21 @@
 }
 
 .contact-section .contact-area {
-    width: 450px;
+    width: auto;
     margin: 0 auto;
     display: block;
     margin-top: 80px;
 }
 
 .form-area, .form-area textarea  {
-    width: 450px;
+    width: 100%;
 
 }
 
 .info-area img{
     height: 300px;
+    width: 100%;
+    
 }
 
 
