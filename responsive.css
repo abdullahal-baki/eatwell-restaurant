@@ -13,17 +13,21 @@
         opacity: .9;
     }
 
+
+    /* ========about responsive ======= */
+
     .about-section {
         display: block;
+        width: auto;
         
     }
     .left-side {
-        width: 400px;
+        width: auto;
     }
     .left-side .text {
         padding-top: 10px;
         margin-bottom: 10px;
-        width: 400px;
+        width: auto;
    }
     .left-side .btn {
         margin-top: 0px;
@@ -36,29 +40,62 @@
     .right-side img{
         
         margin-top: 52px;
-        width: 430px;
+        width: 100%;
 
-        height: 300px;
+        height: 250px;
         
 
     }
 
-    .titel-area h1{
+/* ===================== */
+
+
+
+/* --------   offer   ----------- */
+.offer-section {
+
+    padding: 10px;
+    padding-bottom: 150px;
+    
+}
+
+/* ---------------------- */
+.titel-area {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.titel-area h1{
         font-size: 35px;
    }
    .titel-area .text {
     font-size: 18px;
    }
-   .card:nth-child(2), .card:nth-child(3){
+
+   /* --------------------- */
+
+   .img-cards {
+    display: block;
+}   
+    .card {
+        width: auto;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+   /* .card:nth-child(2), .card:nth-child(3){
     display: none;
-   }
+   } */
    .card img{
-    width: 385px;
+    width: 100%;
 
 }
 
+/* ================== */
 
-
+/* --------menu style------------ */
+.menu-section .titel-area{
+    padding: 10px;
+}
 
 .menu-items-button {
     display: block;
@@ -67,35 +104,30 @@
     margin: 0 auto;
     margin-top: 30px;
    
+   
 }
 .item-button {
     margin-top: 10px;
+    margin-left: 0px;
 
 }
-
-
-
-
 
 .menus {
     margin-left: 0px;
-    width: 300px;
+    width: auto;
     
 }
-
 .menu-items-area {
     display: block;
-    width: 300px;
+    width: auto;
 
     
 } 
-
 .menu-items{
     padding: 15px;
 }
-
 .menu-items .menu-text {
-    width: 350px;
+    width: auto;
     padding-top: 10px;
     opacity: .6;
 }
@@ -103,7 +135,13 @@
     font-size: 20px;
 }
 
-.news-section .img-cards{
+
+
+
+.news-section {
+    padding-bottom: 150px;
+}
+/* .news-section .img-cards{
     display: block;
 
 }
@@ -111,8 +149,7 @@
     display: block;
     margin-top: 20px;
 
-}
-
+} */
 
 
 

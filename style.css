@@ -176,6 +176,7 @@ body {
      height: 350px;
      animation: right-side .5s;
      margin-right: -10px;
+   
      
 }
 
@@ -312,6 +313,8 @@ body {
      animation-duration: .5s;
 
 }
+ 
+
 .menu-items-area {
      margin-top: 50px;
      display: grid;
