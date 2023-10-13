@@ -46,12 +46,6 @@ body {
      margin-left: 20px;
 }
 
-
-@media (max-width: 570px) {
-     .menu {
-          display: none;
-     }
-}
 /* ----------home style------------ */
 
 .hero-section {
@@ -126,17 +120,6 @@ body {
      transform: translateY(-20px);
 }
 
-@media (max-width: 570px) {
-     #title h1{
-          font-size: 40px;
-     }
-     #para p{
-          font-size: 20px;
-          opacity: .9;
-     }
-}
-
-
 /* ============about style================ */
 
 .about-section {
@@ -153,6 +136,8 @@ body {
 .left-side {
      width: 500px;
      margin-right: 100px;
+     margin-left: -20px;
+     animation: left-side .5s;
 }
 .left-side  * {
      padding: 10px 0;
@@ -189,9 +174,35 @@ body {
 .right-side img {
      width: auto;
      height: 350px;
+     animation: right-side .5s;
+     margin-right: -10px;
      
 }
 
+@keyframes left-side {
+     from {
+          transform: translateX(0px);
+     }
+     to {
+          transform: translateX(30px);
+          
+     }
+}
+.left-side {
+     transform: translateX(30px);
+}
+@keyframes right-side {
+     from {
+          transform: translateX(0px);
+     }
+     to {
+          transform: translateX(-10px);
+          
+     }
+}
+.right-side img {
+     transform: translateX(-10px);
+}
 
 /* ===========offer style========== */
 
@@ -313,9 +324,6 @@ body {
      width: 400px;
      margin-top: 20px;
      display: flex;
-}
-.menu-img {
-
 }
 .menu-img img{
      height: 100px;
@@ -481,6 +489,7 @@ body {
 footer {
      background-color: #222222;
      padding: 100px 40px 100px 40px;
+
 
 }
 .footer-area{
